@@ -1,28 +1,39 @@
-node_modules/
-dist/
-binaries/
-coverage/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+dependency-reduced-pom.xml
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.class
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+.qoder/
+**/.jimi/config.json
+
+### Mac OS ###
 .DS_Store
-reports/
-
-package-lock.json
-
-# Ignore specific dotfiles/folders
-.codemachine
-.codemachine/memory
-.env
-.env.example
-.npmrc
-.npmrc.publish
-
-# Ignore folders starting with .tmp
-.tmp*
-.vscode
-.codemachine/logs
-.codemachine/prompts
-.codemachine/agents
-.codemachine/template.json
-
-# MkDocs build output
-site/
-src/shared/resources/embedded-resources.json
